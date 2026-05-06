@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Jeff Clothings</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Jeff Clothings</div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Our Products</h1>
+            <p>Explore our wide range of quality clothing for everyone</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="container">
+            <div class="filter-options">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="mens">Men's</button>
+                <button class="filter-btn" data-filter="womens">Women's</button>
+                <button class="filter-btn" data-filter="kids">Kids</button>
+            </div>
+
+            <div class="products-grid">
+                <!-- Men's Products -->
+                <div class="product-card" data-category="mens">
+                    <div class="product-image" style="background-color: #ff6b6b;">
+                        <span class="badge">-20%</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Classic Men's T-Shirt</h3>
+                        <p class="category">Men's Collection</p>
+                        <div class="price">
+                            <span class="original">$29.99</span>
+                            <span class="current">$23.99</span>
+                        </div>
+                        <button class="btn btn-small">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="mens">
+                    <div class="product-image" style="background-color: #4a5568;">
+                    </div>
+                    <div class="product-info">
+                        <h3>Premium Dress Shirt</h3>
+                        <p class="category">Men's Collection</p>
+                        <div class="price">
+                            <span class="current">$49.99</span>
+                        </div>
+                        <button class="btn btn-small">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Women's Products -->
+                <div class="product-card" data-category="womens">
+                    <div class="product-image" style="background-color: #4ecdc4;">
+                        <span class="badge">New</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Summer Dress</h3>
+                        <p class="category">Women's Collection</p>
+                        <div class="price">
+                            <span class="current">$39.99</span>
+                        </div>
+                        <button class="btn btn-small">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="womens">
+                    <div class="product-image" style="background-color: #f5a5bd;">
+                    </div>
+                    <div class="product-info">
+                        <h3>Casual Blouse</h3>
+                        <p class="category">Women's Collection</p>
+                        <div class="price">
+                            <span class="current">$34.99</span>
+                        </div>
+                        <button class="btn btn-small">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Kids Products -->
+                <div class="product-card" data-category="kids">
+                    <div class="product-image" style="background-color: #95e1d3;">
+                    </div>
+                    <div class="product-info">
+                        <h3>Colorful Kids T-Shirt</h3>
+                        <p class="category">Kids Collection</p>
+                        <div class="price">
+                            <span class="current">$19.99</span>
+                        </div>
+                        <button class="btn btn-small">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="kids">
+                    <div class="product-image" style="background-color: #ffd93d;">
+                    </div>
+                    <div class="product-info">
+                        <h3>Cool Hoodie</h3>
+                        <p class="category">Kids Collection</p>
+                        <div class="price">
+                            <span class="current">$29.99</span>
+                        </div>
+                        <button class="btn btn-small">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Jeff Clothings</h4>
+                    <p>Your go-to destination for quality clothing for everyone.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>Email: info@jeffclothings.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Jeff Clothings. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
